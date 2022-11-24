@@ -1,7 +1,7 @@
-function [acqdata cfg]=SITAU_leer_archivo_STFPLIB2 (archivo, xml)
+function [acqdata cfg]=STII_load_file_STFPLIB2 (archivo, xml)
 
-%Esa funcion lee los archivo del primer prototipo de 
-%archivo XML. Esta funcion lee los archivos con etiqueta base STFPLIB2 
+%Esa funcion lee los archivo del primer prototipo de
+%archivo XML (etiqueta base STFPLIB2). 
 
 %[acqdata cfg]=SITAU_leer_archivo_STFPLIB2 (archivo)
 %Lee datos adquiridos con el equipo SITAU y guardados en el archivo
@@ -42,9 +42,9 @@ function [acqdata cfg]=SITAU_leer_archivo_STFPLIB2 (archivo, xml)
 % dly_0             -> Delay of element 0 (us)
 % water_delay_ticks -> ---
 %
-% ver.:  1.0
-% 04/11/2022
-% A. Ibáñez  ITEFI-CSIC
+% ver.:  1.0.0
+% 24/11/2022
+% A. Ibanez  ITEFI-CSIC
 
 
 %% ESTO ESTA ACTIVO EN LA FUNCION BASE: SITAU_leer_archivo(archivo)

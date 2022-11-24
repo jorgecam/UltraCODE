@@ -1,6 +1,6 @@
-function [acqdata cfg]=SITAU_leer_archivo_STLIB2 (archivo, xml)
+function [acqdata cfg]=STII_load_file_STLIB2 (archivo, xml)
 
-%[acqdata cfg]=SITAU_leer_archivo_STLIB2 (archivo)
+%[acqdata cfg]=STII_load_file_STLIB2 (archivo)
 
 
 %Tras el primer prototipo cambiaron la estructura y nombre de etiquetas del
@@ -45,9 +45,9 @@ function [acqdata cfg]=SITAU_leer_archivo_STLIB2 (archivo, xml)
 % dly_0             -> Delay of element 0 (us)
 % water_delay_ticks -> ---
 %
-%ver.:  1.0.1
+%ver.:  1.0.2
 %22/11/2022
-%A. Ibáñez  ITEFI-CSIC
+%A. Ibanez  ITEFI-CSIC
 
 
 %% ESTO ESTA ACTIVO EN LA FUNCION BASE: SITAU_leer_archivo(archivo)
