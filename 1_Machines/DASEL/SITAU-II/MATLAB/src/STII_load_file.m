@@ -42,7 +42,7 @@ function [acqdata cfg]=STII_load_file (f_name)
 %
 %ver.:  1.0
 %07/11/2022
-%A. Ibï¿½ï¿½ez  ITEFI-CSIC
+%A. Ibáñeez  ITEFI-CSIC
 
 
 %% ENTRADA 
@@ -60,9 +60,9 @@ xml = xml2struct([filename '.xml']);
 %%
 %Verifica que existan las ramas que se quieren leer
 if (isfield (xml, 'STLIB2')==true)
-    [acqdata cfg]=SITAU_leer_archivo_STLIB2(filename, xml);
+    [acqdata cfg]=STII_load_file_STLIB2(filename, xml);
 elseif (isfield (xml, 'STFPLIB2')==true)
-    [acqdata cfg]=SITAU_leer_archivo_STFPLIB2(filename, xml);
+    [acqdata cfg]=STII_load_file_STFPLIB2(filename, xml);
 else
     error('El archivo XML no tiene el formato esperado');   
 end
