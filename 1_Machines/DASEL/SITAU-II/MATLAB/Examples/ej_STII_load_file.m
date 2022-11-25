@@ -1,4 +1,4 @@
-% Modified: A. Ibáñez 16/11/2022
+% Modified: A. Ibanez 16/11/2022
 %% *** FILE CONTAINING ADQUISITION DATA ***
 archivo ='.\adq_data\basurilla';
 
