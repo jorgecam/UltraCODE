@@ -19,6 +19,7 @@ UltraCODE is an open project for sharing ultrasound code and datasets, including
 - Group of Nuclear Physics [GFN-UCM](https://www.ucm.es/gfn/)
 - DASEL SL [DASEL](https://www.daselsistemas.com/en/)
 - Institute for Molecular Imaging Instrumentation [I3M](https://www.i3m.upv.es/view.php/Principal)
+- Group of Medical Data Analytics [MEDAL-UPM](https://medal.ctb.upm.es/)
 
 ## Collaborators
 
